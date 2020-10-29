@@ -20,7 +20,7 @@ body {
 		#000000 url("images/background.jpg") no-repeat center fixed;
 	background-size: cover;
 	color: white;
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 html, body {
