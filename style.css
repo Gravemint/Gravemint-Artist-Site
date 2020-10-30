@@ -30,7 +30,6 @@ html, body {
 
 
 .responsive {
-	background-color: blue;
 	width: 100%;
 	height: 0;
 	padding-bottom: 56.25%;
@@ -45,7 +44,6 @@ html, body {
 }
 
 .youtube-sizing {
-	background-color: blue;
 	width: 90vh;
 	margin: 0 auto;
 
@@ -67,7 +65,6 @@ html, body {
 
 
 .mainContent {
-	background-color: blue;
 	color: white;
 	text-align: center;
 	width: 75vw;
@@ -90,7 +87,6 @@ html, body {
 }
 
 #logo {
-	background: rgba(204, 204, 204, 0.5);
 	display: block;
 	position: relative; 
 	margin: 15px auto 20px auto;
@@ -115,7 +111,6 @@ a {
 }
 
 #logo img:hover {
-	background: rgba(204, 204, 204, 0.01);
 	border-radius: 25px;
 	width: 80%;
 
@@ -123,7 +118,6 @@ a {
 }
 
 #navbar {
-	background-color: purple;
 	opacity: 0.5;
 	text-align: center;
 	text-transform: uppercase;
@@ -151,7 +145,6 @@ a {
 }
 
 #navbar li {
-	background-color: red;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -217,14 +210,9 @@ a {
 }
 
 #social ul {
-	background: rgb(204 255 222 / 58%);
 	height: 0;
 	width: 100%;
 
-}
-
-#social div {
-	background: rgba(100, 204, 255, 0.5);
 }
 
 i.fab, i.far {
@@ -281,8 +269,6 @@ a:active {
 	color: blue;
 }
 
-
-
 @media screen and (max-width: 303px) {
 	div img {
 		width: 90%;
@@ -304,8 +290,8 @@ a:active {
 
 /* Test turn off/on background colors */
 
- body, #navbar, #social p, #navbar li, #social div, #logo, .iframe-container, .youtube-sizing, .responsive, #social div, #social ul {
-	background-color: rgba(0, 0, 0, 0);} 
+/* body, #navbar, #social p, #navbar li, #social div, #logo, .iframe-container, .youtube-sizing, .responsive, #social div, #social ul {
+	background-color: rgba(244, 120, 84, 1);} */
 
 /* ^ Test turn off/on background colors ^ */
 
