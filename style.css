@@ -235,10 +235,20 @@ i.fab, i.far {
 	display: inline-block;
 }
 
-/*@media screen and (max-width: 545px) {
-	#social li {margin: 0 1.7vw 0 1.7vw;}
-	#social li {font-size: 20px;}
-}*/
+#WIP {
+	text-align: center; 
+	padding: 75px 20px; 
+	margin-left: 25vw; 
+	margin-right: 25vw; 
+	font-size: 19px;"
+}
+
+@media screen and (max-width: 1061px) {
+	#WIP {
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+}
 
 i.fab:active, i.far:active {
 	color: #FF00FB;
