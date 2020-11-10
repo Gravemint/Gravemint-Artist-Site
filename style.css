@@ -231,19 +231,14 @@ i.fab, i.far {
 }
 
 #social li {
-	margin: 0 15px 30px 15px;
+	margin: 0 18px 30px 18px;
 	display: inline-block;
 }
 
-@media screen and (max-width: 509px) {
-#social li {margin: 0 1.7vw 0 1.7vw;
-}}
-
-@media screen and (max-width: 509px) {
-#social li {margin: 0 1vw 0 1vw;
-}}
-
-
+/*@media screen and (max-width: 545px) {
+	#social li {margin: 0 1.7vw 0 1.7vw;}
+	#social li {font-size: 20px;}
+}*/
 
 i.fab:active, i.far:active {
 	color: #FF00FB;
