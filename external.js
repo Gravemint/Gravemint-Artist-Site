@@ -1,4 +1,4 @@
-for(let i = 1; i < 7; i++) {
-	console.log('Loop');
-	if (i == 3) break;
-}
+// document.getElementById("navbar").onclick = function(){
+// 	document.getElementById("responsive").innerHTML = "Test"
+// }
+
