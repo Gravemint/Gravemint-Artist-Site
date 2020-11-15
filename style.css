@@ -129,7 +129,7 @@ div #desktop-logo img {
 
 @media screen and (max-width: 765px) {
 	#desktop-logo {
-		display: none !important;
+		display: none;
 	}
 }
 
@@ -140,7 +140,7 @@ div #desktop-logo img {
 	text-align: center;
 	width: 100%;
 	max-width: 915px;
-	display: none !important;
+	display: none;
 }
 
 #mobile-logo img {
@@ -228,7 +228,7 @@ div #desktop-logo img {
 
 @media screen and (max-width: 1024px) {
 	#navbar {
-		display: none !important;
+		display: none;
 	}
 }
 
@@ -263,7 +263,7 @@ div #desktop-logo img {
 }
 
 #mobile-nav {
-	display: none !important;
+	display: none;
 	position: absolute;
 	top: 65px;
 	right: 60px;
