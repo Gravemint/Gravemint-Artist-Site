@@ -490,10 +490,10 @@ a:active {
 
 /* Test turn off/on background colors */
 
- body, #navbar, #social p, #navbar li, #social div, #social li, #mobile-logo, #desktop-logo, .iframe-container, .youtube-sizing, #separator, .responsive, #social div, #social ul {
+/* body, #navbar, #social p, #navbar li, #social div, #social li, #mobile-logo, #desktop-logo, .iframe-container, .youtube-sizing, #separator, .responsive, #social div, #social ul {
 	background-color: rgba(244, 120, 84, 0.2);} 
 
-#mobile-nav, div #social {background-color: rgba(220, 120, 84, 0.2);}	
+#mobile-nav, div #social {background-color: rgba(220, 120, 84, 0.2);}	*/
 
 /* ^ Test turn off/on background colors ^ */
 
