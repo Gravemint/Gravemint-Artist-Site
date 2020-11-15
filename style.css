@@ -134,12 +134,13 @@ div #desktop-logo img {
 }
 
 #mobile-logo {
-	display: none;
+	
 	position: relative; 
 	margin: 15px auto 20px auto;
 	text-align: center;
 	width: 100%;
 	max-width: 915px;
+	display: none;
 }
 
 #mobile-logo img {
