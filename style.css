@@ -60,7 +60,7 @@ html, body {
  overflow: hidden;
  display: block;
  position: relative;
- padding-bottom: 100px;
+/* padding-bottom: 100px;*/
 }
 
 
@@ -136,11 +136,34 @@ div #desktop-logo img {
 #mobile-logo {
 	
 	position: relative; 
-	margin: 15px auto 13vw auto;
+	margin-top: 15px;
+	margin-right: auto; 
+	margin-bottom: 13vw; 
+	margin-left: auto;
 	text-align: center;
 	width: 100%;
 	max-width: 915px;
 	display: none;
+}
+
+
+
+@media screen and (max-width: 765px) and (min-height: 800px){
+	#mobile-logo {
+			margin-bottom: calc(13vw + 6vh); 
+	}
+}
+
+@media screen and (max-width: 500px) and (min-height: 945px){
+	#mobile-logo {
+			margin-bottom: calc(13vw + 11vh); 
+	}
+}
+
+@media screen and (min-width: 766px) and (min-height: 960px){
+	#desktop-logo {
+			margin-bottom: calc(13vw + 5vh); 
+	}
 }
 
 #mobile-logo img {
@@ -284,7 +307,7 @@ div #desktop-logo img {
 	}
 }
 
-
+/* nav bar is 105px tall, middle point would be 52.5px. mobile nav is 48px tall, middle would be 24px */
 
 #mobile-nav:hover {
 	color: #a36aff;
@@ -311,6 +334,8 @@ div #desktop-logo img {
 /*	font-size: 12.5px;*/
 }
 
+
+
 #social li a i {
 	padding: 10px;
 }
@@ -318,6 +343,30 @@ div #desktop-logo img {
 @media screen and (max-width: 1024px) {
 	#social {
 		margin-top: 13vw;
+	}
+}
+
+@media screen and (max-width: 765px) and (min-height: 800px){
+	#social {
+			margin-top: calc(13vw + 6vh); 
+	}
+}
+
+@media screen and (max-width: 765px) and (min-height: 800px){
+	#social {
+			margin-top: calc(13vw + 6vh); 
+	}
+}
+
+@media screen and (max-width: 500px) and (min-height: 945px){
+	#social {
+			margin-top: calc(13vw + 11vh); 
+	}
+}
+
+@media screen and (min-width: 766px) and (min-height: 960px){
+	#social {
+			margin-top: calc(13vw + 5vh); 
 	}
 }
 
@@ -363,6 +412,13 @@ i.fab, i.far {
 		width: 15%;
 	}
 }
+
+@media screen and (max-width: 737px) and (min-width: 700px) {
+	#social li {
+		margin-bottom: 3px;
+	}
+
+	}
 
 @media screen and (max-width: 391px) {
 	#social li {
@@ -519,10 +575,7 @@ a:active {
 
 /* Test turn off/on background colors */
 
-/* body, #navbar, #social p, #navbar li, #social div, #social li, #mobile-logo, #desktop-logo, .iframe-container, .youtube-sizing, #separator, .responsive, #social div, #social ul {
-	background-color: rgba(244, 120, 84, 0.2);} 
-
-#mobile-nav, div #social {background-color: rgba(220, 120, 84, 0.2);}	*/
+/**/
 
 /* ^ Test turn off/on background colors ^ */
 
