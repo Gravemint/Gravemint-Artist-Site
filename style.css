@@ -30,6 +30,7 @@ html, body {
 
 
 #responsive {
+	z-index: -1;
 	width: 100%;
 	height: 0;
 	padding-bottom: 56.25%;
@@ -54,6 +55,14 @@ html, body {
 		max-width: 100%;
 	}
 }
+
+@media screen and (width: 1024px) and (height: 1366px) {
+	.youtube-sizing {
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-height: 1028px) and /*if height is */
 
 .main-container {
  min-height: 100vh;
@@ -133,9 +142,15 @@ div #desktop-logo img {
 	}
 }
 
+#mobile-bar-container {
+	display: none;
+	position: relative;
+	height: 130px;
+}
+
 #mobile-logo {
 	
-	position: relative; 
+	position: fixed; 
 	margin-top: 15px;
 	margin-right: auto; 
 	margin-bottom: 13vw; 
@@ -144,18 +159,23 @@ div #desktop-logo img {
 	width: 100%;
 	max-width: 915px;
 	display: none;
+	z-index: 1;
 }
 
-
+@media screen and (max-width: 1024px) {
+	#mobile-bar-container {
+    margin-bottom: 13vw;
+   	}
+}
 
 @media screen and (max-width: 765px) and (min-height: 800px){
-	#mobile-logo {
+	#mobile-bar-container {
 			margin-bottom: calc(13vw + 6vh); 
 	}
 }
 
 @media screen and (max-width: 500px) and (min-height: 945px){
-	#mobile-logo {
+	#mobile-bar-container {
 			margin-bottom: calc(13vw + 11vh); 
 	}
 }
@@ -170,15 +190,13 @@ div #desktop-logo img {
 	height: 100px;
 }
 
-@media screen and (max-width: 765px) {
-	#mobile-logo {
-		display: block;
-	}
+#mobile-logo img:hover {
+	filter: invert(48%) sepia(68%) saturate(3016%) hue-rotate(232deg) brightness(102%) contrast(101%);
 }
 
-@media screen and (max-width: 474px) {
-		#mobile-logo {
-		
+@media screen and (max-width: 765px) {
+	#mobile-logo, #mobile-bar-container {
+		display: block;
 	}
 }
 
@@ -287,11 +305,22 @@ div #desktop-logo img {
 
 #mobile-nav {
 	display: none;
-	position: absolute;
+	position: fixed;
 	top: 65px;
 	right: 60px;
-	transition: .5s;
 	color: rgb(244 228 244 / 48%)
+	z-index: 1;
+}
+
+#mobile-bar {
+	display: none;
+	position: fixed;
+	height: 130px;
+	width: 100%;
+	top: 0px;
+/*	background-color: rgb(48 9 58 / 81%);*/
+background-image: linear-gradient(to bottom right, rgb(27 149 162 / 67%), rgb(72 15 86 / 67%));
+	z-index: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -302,8 +331,11 @@ div #desktop-logo img {
 
 @media screen and (max-width: 765px) {
 	#mobile-nav {
-		top: 45px;
+		top: 42px;
 		right: 30px;
+	}
+	#mobile-bar {
+		display: block;
 	}
 }
 
@@ -410,6 +442,9 @@ i.fab, i.far {
 @media screen and (max-width: 737px) {
 	#social li {
 		width: 15%;
+	}
+	#social i:hover {
+		font-size: 34px;
 	}
 }
 
