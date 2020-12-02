@@ -138,6 +138,7 @@ div #desktop-logo img {
 	display: none;
 	position: relative;
 	height: 130px;
+	width: 100%;
 }
 
 #mobile-logo {
@@ -157,7 +158,8 @@ div #desktop-logo img {
 @media screen and (max-width: 270px) {
 	#mobile-logo {
 		text-align: left;
-		margin-left: 30px;
+		left: 20%;
+		right: 70%;
 	}
 }
 
@@ -179,11 +181,11 @@ div #desktop-logo img {
 	}
 }
 
-@media screen and (min-width: 766px) and (min-height: 960px){
+/*@media screen and (min-width: 766px) and (min-height: 960px){
 	#desktop-logo {
 			margin-bottom: calc(13vw + 5vh); 
 	}
-}
+}*/
 
 #mobile-logo img {
 	height: 100px;
@@ -397,11 +399,11 @@ background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(11
 	}
 }
 
-@media screen and (min-width: 766px) and (min-height: 960px){
+/*@media screen and (min-width: 766px) and (min-height: 960px){
 	#social {
 			margin-top: calc(13vw + 5vh); 
 	}
-}
+}*/
 
 #social ul {
 	height: 100%;
@@ -545,10 +547,15 @@ a:active {
 }
 
 /* Test turn off/on background colors */
-
-/* body, #navbar, #social p, #navbar li, #social div, #social li, #mobile-logo, #desktop-logo, .iframe-container, .youtube-sizing, #separator, .responsive, #social div, #social ul {
+/*
+ body, #navbar, #social p, #navbar li, #social div, #social li, #mobile-logo, #desktop-logo, .iframe-container, .youtube-sizing, #separator, .responsive, #social div, #social ul {
 	background-color: rgba(244, 120, 84, 0.2);} 
-#mobile-nav, div #social {background-color: rgba(220, 120, 84, 0.2);}	*/
+
+#mobile-nav, div #social {background-color: rgba(220, 120, 84, 0.2);}	
+
+.main-container {background-color: rgba(60, 120, 200, 0.1);}*/
+
+
 
 /* ^ Test turn off/on background colors ^ */
 
