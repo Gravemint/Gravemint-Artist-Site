@@ -143,7 +143,7 @@ div #desktop-logo img {
 
 #mobile-logo {
 	
-	position: fixed; 
+	position: absolute; 
 	margin-top: 15px;
 	margin-right: auto; 
 	margin-bottom: 13vw; 
@@ -306,7 +306,7 @@ div #desktop-logo img {
 
 #mobile-nav {
 	display: none;
-	position: fixed;
+	position: absolute;
 	top: 65px;
 	right: 60px;
 	color: rgb(244 228 244 / 48%);
@@ -315,7 +315,7 @@ div #desktop-logo img {
 
 #mobile-bar {
 	display: none;
-	position: fixed;
+	position: absolute;
 	height: 130px;
 	width: 100%;
 	top: 0px;
@@ -365,7 +365,7 @@ background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(11
 	text-align: center;
 /*	font-size: 12.5px;*/
 	/*background-color: rgb(121 58 58 / 15%);*/
-	
+
 }
 
 
