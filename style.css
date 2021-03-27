@@ -144,7 +144,7 @@ div #desktop-logo img {
 #mobile-logo {
 	
 	position: absolute; 
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-right: auto; 
 	margin-bottom: 13vw; 
 	margin-left: auto;
@@ -188,7 +188,7 @@ div #desktop-logo img {
 }*/
 
 #mobile-logo img {
-	height: 100px;
+	height: 80px;
 }
 
 #mobile-logo img:hover {
@@ -307,7 +307,7 @@ div #desktop-logo img {
 #mobile-nav {
 	display: none;
 	position: absolute;
-	top: 65px;
+	top: 55px;
 	right: 60px;
 	color: rgb(244 228 244 / 48%);
 	z-index: 2;
@@ -316,7 +316,7 @@ div #desktop-logo img {
 #mobile-bar {
 	display: none;
 	position: absolute;
-	height: 130px;
+	height: 90px;
 	width: 100%;
 	top: 0px;
 /*	background-color: rgb(48 9 58 / 81%);*/
@@ -331,7 +331,7 @@ background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(11
 
 @media screen and (max-width: 765px) {
 	#mobile-nav {
-		top: 42px;
+		top: 22px;
 		right: 30px;
 	}
 	#mobile-bar {
@@ -376,7 +376,13 @@ background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(11
 
 @media screen and (max-width: 1024px) {
 	#social {
-		margin-top: 13vw;
+		margin-top: 9vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#social {
+		margin-top: 16vw;
 	}
 }
 
@@ -390,13 +396,13 @@ background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(11
 
 @media screen and (max-width: 765px) and (min-height: 800px){
 	#social {
-			margin-top: calc(13vw + 6vh); 
+			margin-top: calc(19vw + 6vh); 
 	}
 }
 
 @media screen and (max-width: 500px) and (min-height: 945px){
 	#social {
-			margin-top: calc(13vw + 11vh); 
+			margin-top: calc(19vw + 11vh); 
 	}
 }
 
