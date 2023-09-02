@@ -37,7 +37,7 @@ html, body {
 	position: relative;
 }
 
-#responsive, #responsive-spotify iframe {
+#responsive iframe, #responsive-spotify iframe {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -181,7 +181,7 @@ div #desktop-logo img {
 		display: none;
 	}
 
-	body::before {
+	#spotify-body::before {
     content: "";
     position: absolute;
     top: 0;
@@ -458,13 +458,13 @@ background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(11
 }
 
 @media screen and (max-width: 700px) {
-	#social{
+	#social {
 		margin-top: 16vw;
 	}
 }
 
 @media screen and (max-width: 765px) and (min-height: 800px){
-	#social{
+	#social {
 		margin-top: calc(13vw + 6vh); 
 		background: rgb(255 255 255 / 0%);
 	
@@ -472,13 +472,13 @@ background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(11
 }
 
 @media screen and (max-width: 765px) and (min-height: 800px){
-	#social{
+	#social {
 			margin-top: calc(19vw + 6vh); 
 	}
 }
 
 @media screen and (max-width: 500px) and (min-height: 945px){
-	#social{
+	#social {
 			margin-top: calc(19vw + 11vh); 
 	}
 }
@@ -578,7 +578,8 @@ point and animate the logo to disappear and just the 'M' part remains to the lef
 	border-radius: 10px; 
 	padding: 2vw; 
 	text-align: center; 
-	background-image: linear-gradient(to bottom right, rgb(17 197 216 / 48%), rgb(114 25 136 / 30%));
+
+	background-image: linear-gradient(to bottom right, rgba(40, 40, 40, .7), rgba(40, 40, 40, .7));
 }
 
 @media screen and (max-width: 600px) {
